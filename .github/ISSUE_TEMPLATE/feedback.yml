@@ -1,5 +1,5 @@
 name: Feedback or question
-description: Share an idea or ask about the project preview.
+description: Share an idea about campaign co-op, enemy scaling or the project preview.
 body:
   - type: markdown
     attributes:
@@ -10,6 +10,6 @@ body:
     id: feedback
     attributes:
       label: What would you like to share?
-      description: A question, suggestion or documentation correction.
+      description: A question, co-op balance suggestion or documentation correction.
     validations:
       required: true
