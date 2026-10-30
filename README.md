@@ -2,6 +2,8 @@
 
 Titanfall 2's campaign, with a friend.
 
+**[Project website — cooplab.sigmas.club](https://cooplab.sigmas.club/)**
+
 An experimental multiplayer campaign project built on Northstar.Coop.
 The aim is to share the story, fights and map transitions without having to
 manage a pile of mods by hand.
@@ -13,6 +15,10 @@ screenshot, not the mod, its source code or playable builds. There is no public
 multiplayer service or open beta sign-up. Releasing soon™.
 
 ## Where it stands
+
+CoopLab has been taking shape through successive development builds, hands-on
+sessions and fixes driven by player feedback. The website collects an overview
+and real development captures. Its static source is saved in [website/](website/).
 
 Training, early Crashsite combat and shared dialogue have had extensive player
 playtests. Work so far includes shared scene/HUD state, dialogue UI, enemy
