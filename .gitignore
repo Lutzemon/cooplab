@@ -13,3 +13,14 @@
 !.github/ISSUE_TEMPLATE/
 !.github/ISSUE_TEMPLATE/config.yml
 !.github/ISSUE_TEMPLATE/feedback.yml
+!website/
+!website/README.md
+!website/index.html
+!website/style.css
+!website/app.js
+!website/.editorconfig
+!website/.prettierrc.json
+!website/assets/
+!website/assets/launcher.png
+!website/assets/settings.png
+!website/assets/mark.svg
