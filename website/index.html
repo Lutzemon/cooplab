@@ -1,11 +1,412 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CoopLab — The campaign. With backup.</title><meta name="description" content="An experimental two-player campaign co-op project for Titanfall 2. Follow development. Closed testing only; no public download."><meta name="theme-color" content="#101922"><link rel="canonical" href="https://cooplab.sigmas.club/"><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=2"><script src="app.js?v=2" defer></script></head>
-<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#" aria-label="CoopLab home"><span class="brand-mark" aria-hidden="true">Ⅱ</span> COOPLAB<span class="brand-note">CAMPAIGN CO-OP / DEV LOG</span></a><nav aria-label="Main navigation"><a href="#project">The project</a><a href="#progress">Progress</a><a href="#questions">Questions</a><a class="nav-github" href="https://github.com/Lutzemon/cooplab">GitHub <span aria-hidden="true">↗</span></a></nav></header>
-<main id="main"><section class="hero" aria-labelledby="hero-title"><div class="hero-top"><span class="eyebrow"><i aria-hidden="true"></i> IN DEVELOPMENT</span><span class="coordinates">TITANFALL 2 / CAMPAIGN CO-OP</span></div><div class="hero-grid"><div class="hero-copy"><h1 id="hero-title">THE CAMPAIGN.<br>WITH <em>BACKUP.</em></h1><p class="intro">Same story. Another pilot.<br>An experimental way to take on Titanfall 2’s campaign together.</p><a class="button" href="https://github.com/Lutzemon/cooplab">Follow the development <span aria-hidden="true">↗</span></a><p class="availability">Closed testing only. No public build available.</p></div><div class="route-art" role="img" aria-label="Illustrated route map: two pilots following one shared story"><div class="art-caption"><span>MISSION LINK / ACTIVE</span><span>02 PILOTS</span></div><svg viewBox="0 0 520 480" aria-hidden="true"><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#243f52" stroke-width="1"/></pattern></defs><rect width="520" height="480" fill="url(#grid)"/><g fill="none" stroke="#476b80" stroke-width="1"><path d="M-20 310 120 145 260 210 380 60 550 100M-20 330 120 165 260 230 380 80 550 120M-20 350 120 185 260 250 380 100 550 140M-20 370 120 205 260 270 380 120 550 160M-20 390 120 225 260 290 380 140 550 180M-20 410 120 245 260 310 380 160 550 200"/></g><text x="240" y="390" fill="none" stroke="#365a70" stroke-width="1" font-family="Arial,sans-serif" font-weight="900" font-size="390">2</text><path class="route-path" d="M85 425V300L245 145V55" fill="none" stroke="#eaf4fa" stroke-width="4"/><path class="route-path second" d="M140 425V323L300 168V55" fill="none" stroke="#ff762e" stroke-width="4"/><g fill="#101922" stroke-width="4"><circle cx="85" cy="425" r="10" stroke="#eaf4fa"/><circle cx="140" cy="425" r="10" stroke="#ff762e"/><rect x="233" y="43" width="24" height="24" stroke="#eaf4fa"/><rect x="288" y="43" width="24" height="24" stroke="#ff762e"/></g><g font-family="monospace" font-size="12" fill="#bcd0df"><text x="22" y="459">STORY PLAYER</text><text x="145" y="459" fill="#ff762e">SECOND PILOT</text><text x="337" y="61">SHARED OBJECTIVE</text></g></svg><div class="art-bottom"><span>ONE STORY. TWO POINTS OF VIEW.</span><span aria-hidden="true">＋</span></div></div></div><div class="hero-bottom"><span>BUILT ON NORTHSTAR.COOP</span><span>WINDOWS + LINUX LAUNCHERS</span><span>PRIVATE PLAYTESTS IN PROGRESS <span aria-hidden="true">↓</span></span></div></section>
-<section class="project light" id="project"><div class="section-heading"><span class="eyebrow">01 / THE IDEA</span><h2>A second pilot.<br>Not a second job.</h2></div><div class="project-body"><p class="large-text">The goal is simple: play the story with a friend, without managing a pile of mods by hand.</p><p>CoopLab has been taking shape through successive builds, hands-on sessions and fixes driven by player feedback. The work is in the details: keeping both players in the same scene, showing dialogue to both, and getting everyone through the next door.</p><div class="work-list"><article><span>01</span><div><h3>Stay in the story</h3><p>Shared scene state, visibility and HUD work, while one story player drives the campaign.</p></div></article><article><span>02</span><div><h3>Hear both sides</h3><p>Shared dialogue UI and story-player choices, with fixes for early campaign interactions.</p></div></article><article><span>03</span><div><h3>Less setup, more testing</h3><p>Native Windows and Linux launchers prepare co-op directly in an existing Steam/EA installation.</p></div></article></div></div></section>
-<section class="progress" id="progress"><div class="section-heading"><span class="eyebrow">02 / DEVELOPMENT LOG</span><h2>Built. Played.<br>Reworked. Repeat.</h2></div><div class="progress-grid"><div><p class="large-text">Early scenes have had real playtests.<br>The whole campaign still needs one.</p><p>The current build carries forward several rounds of scene fixes, dialogue work and launcher revisions. Training, early Crashsite combat and shared dialogue have had targeted human tests. The full campaign still needs a complete pass.</p><div class="milestones"><div><span class="status">TARGETED TESTS</span><h3>Training & early Crashsite</h3><p>Scene, dialogue and combat fixes have been tried with human players.</p></div><div><span class="status next">NEXT MILESTONE</span><h3>A two-player story playthrough</h3><p>Internet joining, later missions, reconnects and Windows/Linux combinations need more testing.</p></div></div><a class="text-link" href="https://github.com/Lutzemon/cooplab/blob/main/ROADMAP.md">Read the roadmap <span aria-hidden="true">↗</span></a></div><figure><button class="image-button" id="open-preview" data-preview="assets/launcher.png" data-caption="Native setup launcher. Closed testing only." aria-label="Enlarge the development launcher screenshot"><img src="assets/launcher.png" width="816" height="779" loading="lazy" alt="Development launcher with Steam installation detection and co-op settings"><span>VIEW DEVELOPMENT UI <span aria-hidden="true">↗</span></span></button><figcaption><span>LAUNCHER / CLOSED TEST BUILD</span><span>Preview only. No download.</span></figcaption></figure></div></section>
-<section class="workbench" id="workbench"><div class="section-heading"><span class="eyebrow">03 / FROM THE WORKBENCH</span><h2>Actual builds.<br>Actual iteration.</h2></div><div class="evidence-grid"><div class="evidence-copy"><p class="large-text">The work goes beyond a landing page.</p><p>Shared scene controls, dialogue choices, health scaling and installation tools have been worked on across successive development builds.</p><p>This is a real settings screen from an earlier launcher iteration. The native setup preview above shows the next step in that work. These are development captures, not a promise that every mission is finished.</p><a class="text-link" href="https://github.com/Lutzemon/cooplab/blob/main/UPDATES.md">Read the development notes <span aria-hidden="true">↗</span></a></div><figure><button class="image-button" data-preview="assets/settings.png?v=3" data-caption="Earlier development settings screen. Closed testing only." aria-label="Enlarge the earlier development settings screenshot"><img src="assets/settings.png?v=3" width="1265" height="1101" loading="lazy" alt="Earlier CoopLab settings screen showing health scaling, shared dialogue, scene controls and session settings"><span>EARLIER DEVELOPMENT BUILD <span aria-hidden="true">↗</span></span></button><figcaption><span>ARCHIVE / SETTINGS INTERFACE</span><span>Real development capture</span></figcaption></figure></div></section>
-<section class="questions light" id="questions"><div class="section-heading"><span class="eyebrow">04 / FIELD QUESTIONS</span><h2>Before you<br>drop in.</h2></div><div class="faq"><details><summary>Can I play it yet?<span aria-hidden="true">+</span></summary><p>Not publicly. Testing is limited to the maintainer’s existing group. There is no public build, download or open beta sign-up.</p></details><details><summary>When will it be released?<span aria-hidden="true">+</span></summary><p>No date has been set. The next milestone is a broader two-player campaign playthrough, followed by fixes for the problems it uncovers.</p></details><details><summary>What about Windows and Linux?<span aria-hidden="true">+</span></summary><p>Native launchers exist for both. Linux gameplay uses UMU and Proton. Mixed-OS campaign play is still a test target, not a confirmed full-story pass.</p></details><details><summary>Is there a public server?<span aria-hidden="true">+</span></summary><p>No public multiplayer service is offered. This website does not provide server access, invitations or connection settings.</p></details><details><summary>How is the project being made?<span aria-hidden="true">+</span></summary><p>Development is AI-assisted, with substantial human direction, debugging and hands-on playtesting. It builds on Northstar.Coop and Northstar.</p></details></div></section>
-<section class="follow"><span class="eyebrow">KEEP AN EYE ON IT</span><h2>See you on<br>the next update.</h2><div><a class="button" href="https://github.com/Lutzemon/cooplab">Visit the project on GitHub <span aria-hidden="true">↗</span></a><p>Questions, ideas and documentation corrections are welcome.<br>No account or email sign-up needed to follow the page.</p></div></section></main>
-<footer><a class="brand" href="#">Ⅱ COOPLAB</a><p>Independent fan project. Not affiliated with Respawn or EA.<br>Titanfall 2 belongs to its respective owners.</p><div><a href="https://github.com/ASpoonPlaysGames/NorthstarMods">Northstar.Coop ↗</a><a href="https://github.com/R2Northstar">Northstar ↗</a><button id="share">Copy site link ↗</button><span id="share-status" role="status"></span></div></footer>
-<dialog id="preview-dialog" aria-label="Development launcher preview"><button id="close-preview" aria-label="Close launcher preview">Close ×</button><img src="assets/launcher.png" alt="Full development launcher screenshot"><p>Development UI. Closed testing only.</p></dialog></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CoopLab — The campaign. With backup.</title>
+    <meta
+      name="description"
+      content="An experimental two-player campaign co-op project for Titanfall 2. Follow development. Closed testing only; no public download."
+    />
+    <meta name="theme-color" content="#101922" />
+    <link rel="canonical" href="https://cooplab.sigmas.club/" />
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css?v=2" />
+    <script src="app.js?v=2" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <a class="brand" href="#" aria-label="CoopLab home">
+        <span class="brand-mark" aria-hidden="true">Ⅱ</span>
+        COOPLAB
+        <span class="brand-note">CAMPAIGN CO-OP / DEV LOG</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#project">The project</a>
+        <a href="#progress">Progress</a>
+        <a href="#questions">Questions</a>
+        <a class="nav-github" href="https://github.com/Lutzemon/cooplab">
+          GitHub
+          <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <span class="eyebrow">
+            <i aria-hidden="true"></i>
+            IN DEVELOPMENT
+          </span>
+          <span class="coordinates">TITANFALL 2 / CAMPAIGN CO-OP</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-title">
+              THE CAMPAIGN.
+              <br />
+              WITH
+              <em>BACKUP.</em>
+            </h1>
+            <p class="intro">
+              Same story. Another pilot.
+              <br />
+              An experimental way to take on Titanfall 2’s campaign together.
+            </p>
+            <a class="button" href="https://github.com/Lutzemon/cooplab">
+              Follow the development
+              <span aria-hidden="true">↗</span>
+            </a>
+            <p class="availability">Closed testing only. No public build available.</p>
+          </div>
+          <div
+            class="route-art"
+            role="img"
+            aria-label="Illustrated route map: two pilots following one shared story"
+          >
+            <div class="art-caption">
+              <span>MISSION LINK / ACTIVE</span>
+              <span>02 PILOTS</span>
+            </div>
+            <svg viewBox="0 0 520 480" aria-hidden="true">
+              <defs>
+                <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                  <path d="M32 0H0V32" fill="none" stroke="#243f52" stroke-width="1" />
+                </pattern>
+              </defs>
+              <rect width="520" height="480" fill="url(#grid)" />
+              <g fill="none" stroke="#476b80" stroke-width="1">
+                <path
+                  d="M-20 310 120 145 260 210 380 60 550 100M-20 330 120 165 260 230 380 80 550 120M-20 350 120 185 260 250 380 100 550 140M-20 370 120 205 260 270 380 120 550 160M-20 390 120 225 260 290 380 140 550 180M-20 410 120 245 260 310 380 160 550 200"
+                />
+              </g>
+              <text
+                x="240"
+                y="390"
+                fill="none"
+                stroke="#365a70"
+                stroke-width="1"
+                font-family="Arial,sans-serif"
+                font-weight="900"
+                font-size="390"
+              >
+                2
+              </text>
+              <path
+                class="route-path"
+                d="M85 425V300L245 145V55"
+                fill="none"
+                stroke="#eaf4fa"
+                stroke-width="4"
+              />
+              <path
+                class="route-path second"
+                d="M140 425V323L300 168V55"
+                fill="none"
+                stroke="#ff762e"
+                stroke-width="4"
+              />
+              <g fill="#101922" stroke-width="4">
+                <circle cx="85" cy="425" r="10" stroke="#eaf4fa" />
+                <circle cx="140" cy="425" r="10" stroke="#ff762e" />
+                <rect x="233" y="43" width="24" height="24" stroke="#eaf4fa" />
+                <rect x="288" y="43" width="24" height="24" stroke="#ff762e" />
+              </g>
+              <g font-family="monospace" font-size="12" fill="#bcd0df">
+                <text x="22" y="459">STORY PLAYER</text>
+                <text x="145" y="459" fill="#ff762e">SECOND PILOT</text>
+                <text x="337" y="61">SHARED OBJECTIVE</text>
+              </g>
+            </svg>
+            <div class="art-bottom">
+              <span>ONE STORY. TWO POINTS OF VIEW.</span>
+              <span aria-hidden="true">＋</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>BUILT ON NORTHSTAR.COOP</span>
+          <span>WINDOWS + LINUX LAUNCHERS</span>
+          <span>
+            PRIVATE PLAYTESTS IN PROGRESS
+            <span aria-hidden="true">↓</span>
+          </span>
+        </div>
+      </section>
+      <section class="project light" id="project">
+        <div class="section-heading">
+          <span class="eyebrow">01 / THE IDEA</span>
+          <h2>
+            A second pilot.
+            <br />
+            Not a second job.
+          </h2>
+        </div>
+        <div class="project-body">
+          <p class="large-text">
+            The goal is simple: play the story with a friend, without managing a pile of mods by
+            hand.
+          </p>
+          <p>
+            CoopLab has been taking shape through successive builds, hands-on sessions and fixes
+            driven by player feedback. The work is in the details: keeping both players in the same
+            scene, showing dialogue to both, and getting everyone through the next door.
+          </p>
+          <div class="work-list">
+            <article>
+              <span>01</span>
+              <div>
+                <h3>Stay in the story</h3>
+                <p>
+                  Shared scene state, visibility and HUD work, while one story player drives the
+                  campaign.
+                </p>
+              </div>
+            </article>
+            <article>
+              <span>02</span>
+              <div>
+                <h3>Hear both sides</h3>
+                <p>
+                  Shared dialogue UI and story-player choices, with fixes for early campaign
+                  interactions.
+                </p>
+              </div>
+            </article>
+            <article>
+              <span>03</span>
+              <div>
+                <h3>Less setup, more testing</h3>
+                <p>
+                  Native Windows and Linux launchers prepare co-op directly in an existing Steam/EA
+                  installation.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="progress" id="progress">
+        <div class="section-heading">
+          <span class="eyebrow">02 / DEVELOPMENT LOG</span>
+          <h2>
+            Built. Played.
+            <br />
+            Reworked. Repeat.
+          </h2>
+        </div>
+        <div class="progress-grid">
+          <div>
+            <p class="large-text">
+              Early scenes have had real playtests.
+              <br />
+              The whole campaign still needs one.
+            </p>
+            <p>
+              The current build carries forward several rounds of scene fixes, dialogue work and
+              launcher revisions. Training, early Crashsite combat and shared dialogue have had
+              targeted human tests. The full campaign still needs a complete pass.
+            </p>
+            <div class="milestones">
+              <div>
+                <span class="status">TARGETED TESTS</span>
+                <h3>Training & early Crashsite</h3>
+                <p>Scene, dialogue and combat fixes have been tried with human players.</p>
+              </div>
+              <div>
+                <span class="status next">NEXT MILESTONE</span>
+                <h3>A two-player story playthrough</h3>
+                <p>
+                  Internet joining, later missions, reconnects and Windows/Linux combinations need
+                  more testing.
+                </p>
+              </div>
+            </div>
+            <a class="text-link" href="https://github.com/Lutzemon/cooplab/blob/main/ROADMAP.md">
+              Read the roadmap
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <figure>
+            <button
+              class="image-button"
+              id="open-preview"
+              data-preview="assets/launcher.png"
+              data-caption="Native setup launcher. Closed testing only."
+              aria-label="Enlarge the development launcher screenshot"
+            >
+              <img
+                src="assets/launcher.png"
+                width="816"
+                height="779"
+                loading="lazy"
+                alt="Development launcher with Steam installation detection and co-op settings"
+              />
+              <span>
+                VIEW DEVELOPMENT UI
+                <span aria-hidden="true">↗</span>
+              </span>
+            </button>
+            <figcaption>
+              <span>LAUNCHER / CLOSED TEST BUILD</span>
+              <span>Preview only. No download.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="workbench" id="workbench">
+        <div class="section-heading">
+          <span class="eyebrow">03 / FROM THE WORKBENCH</span>
+          <h2>
+            Actual builds.
+            <br />
+            Actual iteration.
+          </h2>
+        </div>
+        <div class="evidence-grid">
+          <div class="evidence-copy">
+            <p class="large-text">The work goes beyond a landing page.</p>
+            <p>
+              Shared scene controls, dialogue choices, health scaling and installation tools have
+              been worked on across successive development builds.
+            </p>
+            <p>
+              This is a real settings screen from an earlier launcher iteration. The native setup
+              preview above shows the next step in that work. These are development captures, not a
+              promise that every mission is finished.
+            </p>
+            <a class="text-link" href="https://github.com/Lutzemon/cooplab/blob/main/UPDATES.md">
+              Read the development notes
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <figure>
+            <button
+              class="image-button"
+              data-preview="assets/settings.png?v=3"
+              data-caption="Earlier development settings screen. Closed testing only."
+              aria-label="Enlarge the earlier development settings screenshot"
+            >
+              <img
+                src="assets/settings.png?v=3"
+                width="1265"
+                height="1101"
+                loading="lazy"
+                alt="Earlier CoopLab settings screen showing health scaling, shared dialogue, scene controls and session settings"
+              />
+              <span>
+                EARLIER DEVELOPMENT BUILD
+                <span aria-hidden="true">↗</span>
+              </span>
+            </button>
+            <figcaption>
+              <span>ARCHIVE / SETTINGS INTERFACE</span>
+              <span>Real development capture</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="questions light" id="questions">
+        <div class="section-heading">
+          <span class="eyebrow">04 / FIELD QUESTIONS</span>
+          <h2>
+            Before you
+            <br />
+            drop in.
+          </h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>
+              Can I play it yet?
+              <span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Not publicly. Testing is limited to the maintainer’s existing group. There is no
+              public build, download or open beta sign-up.
+            </p>
+          </details>
+          <details>
+            <summary>
+              When will it be released?
+              <span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              No date has been set. The next milestone is a broader two-player campaign playthrough,
+              followed by fixes for the problems it uncovers.
+            </p>
+          </details>
+          <details>
+            <summary>
+              What about Windows and Linux?
+              <span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Native launchers exist for both. Linux gameplay uses UMU and Proton. Mixed-OS campaign
+              play is still a test target, not a confirmed full-story pass.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Is there a public server?
+              <span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              No public multiplayer service is offered. This website does not provide server access,
+              invitations or connection settings.
+            </p>
+          </details>
+          <details>
+            <summary>
+              How is the project being made?
+              <span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Development is AI-assisted, with substantial human direction, debugging and hands-on
+              playtesting. It builds on Northstar.Coop and Northstar.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="follow">
+        <span class="eyebrow">KEEP AN EYE ON IT</span>
+        <h2>
+          See you on
+          <br />
+          the next update.
+        </h2>
+        <div>
+          <a class="button" href="https://github.com/Lutzemon/cooplab">
+            Visit the project on GitHub
+            <span aria-hidden="true">↗</span>
+          </a>
+          <p>
+            Questions, ideas and documentation corrections are welcome.
+            <br />
+            No account or email sign-up needed to follow the page.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#">Ⅱ COOPLAB</a>
+      <p>
+        Independent fan project. Not affiliated with Respawn or EA.
+        <br />
+        Titanfall 2 belongs to its respective owners.
+      </p>
+      <div>
+        <a href="https://github.com/ASpoonPlaysGames/NorthstarMods">Northstar.Coop ↗</a>
+        <a href="https://github.com/R2Northstar">Northstar ↗</a>
+        <button id="share">Copy site link ↗</button>
+        <span id="share-status" role="status"></span>
+      </div>
+    </footer>
+    <dialog id="preview-dialog" aria-label="Development launcher preview">
+      <button id="close-preview" aria-label="Close launcher preview">Close ×</button>
+      <img src="assets/launcher.png" alt="Full development launcher screenshot" />
+      <p>Development UI. Closed testing only.</p>
+    </dialog>
+  </body>
+</html>
