@@ -1,0 +1,107 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 350"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">CoopLab — The campaign. With friends.</title>
+  <desc id="desc">
+    Campaign co-op for Titanfall 2. Enemy health scaling, shared story and
+    Windows/Linux launchers. In development.
+  </desc>
+  <rect width="1200" height="350" fill="#101922" />
+  <rect width="1200" height="5" fill="#ff762e" />
+  <path
+    d="M850 0V350M950 0V350M1050 0V350M750 80H1200M750 180H1200M750 280H1200"
+    stroke="#243f52"
+    fill="none"
+  />
+  <text
+    x="48"
+    y="51"
+    fill="#67d6f0"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="15"
+    letter-spacing="3"
+  >
+    COOPLAB / CAMPAIGN CO-OP
+  </text>
+  <text
+    x="45"
+    y="135"
+    fill="#eaf1f5"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="58"
+    font-weight="800"
+  >
+    THE CAMPAIGN.
+  </text>
+  <text
+    x="45"
+    y="203"
+    fill="#ff762e"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="58"
+    font-weight="800"
+  >
+    WITH FRIENDS.
+  </text>
+  <text
+    x="48"
+    y="249"
+    fill="#adc1d0"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="21"
+  >
+    Same story. More pilots.
+  </text>
+  <path
+    d="M850 245V190L970 95V55"
+    fill="none"
+    stroke="#eaf1f5"
+    stroke-width="5"
+  />
+  <path
+    d="M910 245V212L1030 117V55"
+    fill="none"
+    stroke="#ff762e"
+    stroke-width="5"
+  />
+  <g fill="#101922" stroke-width="4">
+    <circle cx="850" cy="245" r="10" stroke="#eaf1f5" />
+    <circle cx="910" cy="245" r="10" stroke="#ff762e" />
+    <rect x="960" y="45" width="20" height="20" stroke="#eaf1f5" />
+    <rect x="1020" y="45" width="20" height="20" stroke="#ff762e" />
+  </g>
+  <path d="M48 284H1152" stroke="#314b5d" />
+  <text
+    x="48"
+    y="320"
+    fill="#67d6f0"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="14"
+    letter-spacing="1"
+  >
+    ENEMY HEALTH × PARTY SIZE
+  </text>
+  <text
+    x="450"
+    y="320"
+    fill="#adc1d0"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="14"
+    letter-spacing="1"
+  >
+    WINDOWS + LINUX
+  </text>
+  <text
+    x="896"
+    y="320"
+    fill="#adc1d0"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="14"
+    letter-spacing="1"
+  >
+    IN DEVELOPMENT
+  </text>
+</svg>
