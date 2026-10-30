@@ -2,7 +2,7 @@
 
 Titanfall 2's campaign, with a friend.
 
-An experimental two-player campaign co-op project built on Northstar.Coop.
+An experimental multiplayer campaign project built on Northstar.Coop.
 The aim is to share the story, fights and map transitions without having to
 manage a pile of mods by hand.
 
@@ -10,11 +10,11 @@ manage a pile of mods by hand.
 
 This repository is a project preview. It contains documentation and a launcher
 screenshot, not the mod, its source code or playable builds. There is no public
-multiplayer service or open beta sign-up. A release date has not been set.
+multiplayer service or open beta sign-up. Releasing soon™.
 
 ## Where it stands
 
-Training, early Crashsite combat and shared dialogue have had targeted human
+Training, early Crashsite combat and shared dialogue have had extensive player
 playtests. Work so far includes shared scene/HUD state, dialogue UI, enemy
 health scaling and native Windows/Linux launchers.
 
@@ -36,12 +36,11 @@ Development UI from the closed test build. This image is not a download.
 ## Follow the work
 
 Watch this repository for updates. Questions and ideas are welcome through
-Issues; see [CONTRIBUTING.md](CONTRIBUTING.md). Testing is currently limited to
-the maintainer's existing group.
+Issues; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Development is AI-assisted, with substantial human direction, debugging and
-hands-on playtesting. If you would like to support the work with an optional
-donation, contact [Lutzemon](https://github.com/Lutzemon). Donations do not grant
+hands-on playtesting. In the future, it will be possible to support the work with an optional
+donation, and help pay for the relay services. Donations do not grant
 test access or a promised release.
 
 ## Credits
