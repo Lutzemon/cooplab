@@ -1,6 +1,5 @@
 name: Feedback or question
 description: Share an idea or ask about the project preview.
-title: ""
 body:
   - type: markdown
     attributes:
