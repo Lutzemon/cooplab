@@ -857,3 +857,134 @@ dialog {
     font-size: 54px;
   }
 }
+
+.hero-bottom a {
+  color: var(--cyan);
+}
+.hero-bottom a:hover {
+  color: var(--orange);
+}
+.scaling {
+  background: #0b1822;
+  border-top: 1px solid var(--line);
+  border-bottom: 3px solid var(--orange);
+}
+.scaling .eyebrow {
+  color: var(--cyan);
+}
+.scaling-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 10%;
+  align-items: center;
+}
+.scaling-copy > p:not(.large-text) {
+  color: var(--muted);
+  max-width: 620px;
+}
+.scaling-example {
+  border: 1px solid #426176;
+  background: #142d3e;
+  padding: 30px;
+}
+.scaling-example > strong {
+  display: block;
+  color: var(--orange);
+  font:
+    100px/1 Impact,
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+  margin: 14px 0 28px;
+}
+.scaling-example > p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 22px 0 0;
+}
+.health-row {
+  display: grid;
+  grid-template-columns: 48px 1fr 24px;
+  gap: 12px;
+  align-items: center;
+  margin: 14px 0;
+  font: 12px monospace;
+}
+.health-track {
+  background: #09151e;
+  height: 12px;
+}
+.health-track > span {
+  display: block;
+  height: 100%;
+}
+.health-solo {
+  background: var(--cyan);
+  width: 50%;
+}
+.health-coop {
+  background: var(--orange);
+  width: 100%;
+}
+.scaling-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 45px 0 20px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.scaling-steps > div {
+  padding: 22px 15px;
+  border-right: 1px solid var(--line);
+}
+.scaling-steps > div:first-child {
+  padding-left: 0;
+}
+.scaling-steps > div:last-child {
+  border-right: 0;
+}
+.scaling-steps dt {
+  color: var(--muted);
+  font: 11px monospace;
+  text-transform: uppercase;
+}
+.scaling-steps dd {
+  margin: 7px 0 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.scaling-note {
+  color: var(--muted);
+  font-size: 12px;
+  max-width: 960px;
+}
+@media (max-width: 950px) {
+  nav {
+    gap: 16px;
+  }
+  .nav-github {
+    padding-left: 16px;
+  }
+  .scaling-grid {
+    gap: 5%;
+  }
+}
+@media (max-width: 650px) {
+  .scaling-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .scaling-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .scaling-steps > div,
+  .scaling-steps > div:first-child {
+    padding: 18px 12px;
+  }
+  .scaling-steps > div:nth-child(2) {
+    border-right: 0;
+  }
+  .scaling-steps > div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+}

@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>CoopLab — The campaign. With backup.</title>
+    <title>CoopLab — The campaign. With friends.</title>
     <meta
       name="description"
-      content="An experimental two-player campaign co-op project for Titanfall 2. Follow development. Closed testing only; no public download."
+      content="An experimental multiplayer campaign project for Titanfall 2. Follow development. Closed testing only; no public download yet."
     />
     <meta name="theme-color" content="#101922" />
     <link rel="canonical" href="https://cooplab.sigmas.club/" />
     <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="stylesheet" href="style.css?v=4" />
     <script src="app.js?v=2" defer></script>
   </head>
   <body>
@@ -24,6 +24,7 @@
       </a>
       <nav aria-label="Main navigation">
         <a href="#project">The project</a>
+        <a href="#scaling">Enemy scaling</a>
         <a href="#progress">Progress</a>
         <a href="#questions">Questions</a>
         <a class="nav-github" href="https://github.com/Lutzemon/cooplab">
@@ -47,10 +48,10 @@
               THE CAMPAIGN.
               <br />
               WITH
-              <em>BACKUP.</em>
+              <em>FRIENDS.</em>
             </h1>
             <p class="intro">
-              Same story. Another pilot.
+              Same story. More pilots.
               <br />
               An experimental way to take on Titanfall 2’s campaign together.
             </p>
@@ -58,16 +59,16 @@
               Follow the development
               <span aria-hidden="true">↗</span>
             </a>
-            <p class="availability">Closed testing only. No public build available.</p>
+            <p class="availability">Closed testing only. No public build available yet.</p>
           </div>
           <div
             class="route-art"
             role="img"
-            aria-label="Illustrated route map: two pilots following one shared story"
+            aria-label="Illustrated co-op route: pilots following one shared story"
           >
             <div class="art-caption">
               <span>MISSION LINK / ACTIVE</span>
-              <span>02 PILOTS</span>
+              <span>CO-OP ROUTE</span>
             </div>
             <svg viewBox="0 0 520 480" aria-hidden="true">
               <defs>
@@ -115,12 +116,12 @@
               </g>
               <g font-family="monospace" font-size="12" fill="#bcd0df">
                 <text x="22" y="459">STORY PLAYER</text>
-                <text x="145" y="459" fill="#ff762e">SECOND PILOT</text>
+                <text x="145" y="459" fill="#ff762e">SQUADMATES</text>
                 <text x="337" y="61">SHARED OBJECTIVE</text>
               </g>
             </svg>
             <div class="art-bottom">
-              <span>ONE STORY. TWO POINTS OF VIEW.</span>
+              <span>ONE STORY. A SHARED OBJECTIVE.</span>
               <span aria-hidden="true">＋</span>
             </div>
           </div>
@@ -128,6 +129,7 @@
         <div class="hero-bottom">
           <span>BUILT ON NORTHSTAR.COOP</span>
           <span>WINDOWS + LINUX LAUNCHERS</span>
+          <a href="#scaling">ENEMY HEALTH × PARTY SIZE</a>
           <span>
             PRIVATE PLAYTESTS IN PROGRESS
             <span aria-hidden="true">↓</span>
@@ -137,21 +139,17 @@
       <section class="project light" id="project">
         <div class="section-heading">
           <span class="eyebrow">01 / THE IDEA</span>
-          <h2>
-            A second pilot.
-            <br />
-            Not a second job.
-          </h2>
+          <h2>Multiplayer campaign.</h2>
         </div>
         <div class="project-body">
           <p class="large-text">
-            The goal is simple: play the story with a friend, without managing a pile of mods by
+            The goal is simple: play the story with friends, without managing a pile of mods by
             hand.
           </p>
           <p>
-            CoopLab has been taking shape through successive builds, hands-on sessions and fixes
-            driven by player feedback. The work is in the details: keeping both players in the same
-            scene, showing dialogue to both, and getting everyone through the next door.
+            CoopLab has been taking shape through successive builds, hands-on playtests and bug
+            fixes driven by player feedback. The work is in the details: keeping the party in the
+            same scene, showing dialogue to everyone and getting everyone through the next door.
           </p>
           <div class="work-list">
             <article>
@@ -167,7 +165,7 @@
             <article>
               <span>02</span>
               <div>
-                <h3>Hear both sides</h3>
+                <h3>Share the conversation</h3>
                 <p>
                   Shared dialogue UI and story-player choices, with fixes for early campaign
                   interactions.
@@ -179,44 +177,113 @@
               <div>
                 <h3>Less setup, more testing</h3>
                 <p>
-                  Native Windows and Linux launchers prepare co-op directly in an existing Steam/EA
-                  installation.
+                  Native Windows and Linux launchers install Northstar and the co-op files directly
+                  into an existing Steam/EA installation.
                 </p>
               </div>
             </article>
           </div>
         </div>
       </section>
+      <section class="scaling" id="scaling" aria-labelledby="scaling-title">
+        <div class="section-heading">
+          <span class="eyebrow">02 / ENEMY HEALTH SCALING</span>
+          <h2 id="scaling-title">
+            More pilots.
+            <br />
+            Tougher opposition.
+          </h2>
+        </div>
+        <div class="scaling-grid">
+          <div class="scaling-copy">
+            <p class="large-text">Bring backup. Keep the fight.</p>
+            <p>
+              Enemy health scales linearly with the number of players. With two players, eligible
+              enemies have twice their normal health. Enemy Titans and damageable story enemies are
+              included.
+            </p>
+            <p>
+              The aim is to keep shared fights worth fighting as the party grows. Enemy numbers and
+              damage stay unchanged, so the original encounters can keep their shape.
+            </p>
+          </div>
+          <div
+            class="scaling-example"
+            aria-label="Two players give eligible enemies twice their normal health"
+          >
+            <span class="status">TWO PLAYERS / ENEMY HEALTH</span>
+            <strong>×2</strong>
+            <div class="health-row">
+              <span>Solo</span>
+              <div class="health-track"><span class="health-solo"></span></div>
+              <span>×1</span>
+            </div>
+            <div class="health-row">
+              <span>Co-op</span>
+              <div class="health-track"><span class="health-coop"></span></div>
+              <span>×2</span>
+            </div>
+            <p>More shared firepower. More health to work through.</p>
+          </div>
+        </div>
+        <dl class="scaling-steps" aria-label="Linear health scaling examples">
+          <div>
+            <dt>1 player</dt>
+            <dd>×1 health</dd>
+          </div>
+          <div>
+            <dt>2 players</dt>
+            <dd>×2 health</dd>
+          </div>
+          <div>
+            <dt>3 players</dt>
+            <dd>×3 health</dd>
+          </div>
+          <div>
+            <dt>4 players</dt>
+            <dd>×4 health</dd>
+          </div>
+        </dl>
+        <p class="scaling-note">
+          Scaling is optional. Training targets, allies and protected scene actors keep their
+          original health. Existing enemies are not healed or rescaled when a player joins or
+          leaves. Closed tests currently focus on two players; larger groups still need
+          verification.
+        </p>
+      </section>
       <section class="progress" id="progress">
         <div class="section-heading">
-          <span class="eyebrow">02 / DEVELOPMENT LOG</span>
+          <span class="eyebrow">03 / DEVELOPMENT LOG</span>
           <h2>
-            Built. Played.
+            Compile. Play.
             <br />
-            Reworked. Repeat.
+            Fix. Repeat.
           </h2>
         </div>
         <div class="progress-grid">
           <div>
             <p class="large-text">
-              Early scenes have had real playtests.
+              Built through hands-on playtesting.
               <br />
-              The whole campaign still needs one.
+              A full campaign pass comes next.
             </p>
             <p>
               The current build carries forward several rounds of scene fixes, dialogue work and
-              launcher revisions. Training, early Crashsite combat and shared dialogue have had
-              targeted human tests. The full campaign still needs a complete pass.
+              launcher revisions. Scene, dialogue and combat fixes have been tested with real
+              players. The full campaign still needs a complete pass.
             </p>
             <div class="milestones">
               <div>
                 <span class="status">TARGETED TESTS</span>
-                <h3>Training & early Crashsite</h3>
-                <p>Scene, dialogue and combat fixes have been tried with human players.</p>
+                <h3>Specific gameplay tweaks</h3>
+                <p>
+                  Scene, dialogue and combat fixes have been implemented and refined through
+                  playtesting.
+                </p>
               </div>
               <div>
                 <span class="status next">NEXT MILESTONE</span>
-                <h3>A two-player story playthrough</h3>
+                <h3>A complete campaign playthrough</h3>
                 <p>
                   Internet joining, later missions, reconnects and Windows/Linux combinations need
                   more testing.
@@ -257,7 +324,7 @@
       </section>
       <section class="workbench" id="workbench">
         <div class="section-heading">
-          <span class="eyebrow">03 / FROM THE WORKBENCH</span>
+          <span class="eyebrow">04 / FROM THE WORKBENCH</span>
           <h2>
             Actual builds.
             <br />
@@ -309,12 +376,8 @@
       </section>
       <section class="questions light" id="questions">
         <div class="section-heading">
-          <span class="eyebrow">04 / FIELD QUESTIONS</span>
-          <h2>
-            Before you
-            <br />
-            drop in.
-          </h2>
+          <span class="eyebrow">05 / FIELD QUESTIONS</span>
+          <h2>Before you ask.</h2>
         </div>
         <div class="faq">
           <details>
@@ -323,8 +386,9 @@
               <span aria-hidden="true">+</span>
             </summary>
             <p>
-              Not publicly. Testing is limited to the maintainer’s existing group. There is no
-              public build, download or open beta sign-up.
+              Not yet — I know that is a bummer. Testing is currently limited to an existing group.
+              A public test is planned, but there is no public build, download or open beta sign-up
+              yet.
             </p>
           </details>
           <details>
@@ -333,7 +397,7 @@
               <span aria-hidden="true">+</span>
             </summary>
             <p>
-              No date has been set. The next milestone is a broader two-player campaign playthrough,
+              No date has been set yet. The next milestone is a broader campaign playthrough,
               followed by fixes for the problems it uncovers.
             </p>
           </details>
@@ -354,7 +418,8 @@
             </summary>
             <p>
               No public multiplayer service is offered. This website does not provide server access,
-              invitations or connection settings.
+              invitations or connection settings. A relay-based joining flow is being developed to
+              make Internet co-op easier. Public hosting plans will be announced with a future test.
             </p>
           </details>
           <details>
@@ -364,7 +429,8 @@
             </summary>
             <p>
               Development is AI-assisted, with substantial human direction, debugging and hands-on
-              playtesting. It builds on Northstar.Coop and Northstar.
+              playtesting. I work through the builds with real players and use their feedback to
+              shape the next revision. CoopLab builds on Northstar.Coop and Northstar.
             </p>
           </details>
         </div>
