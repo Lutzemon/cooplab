@@ -1,0 +1,15 @@
+# This repository deliberately publishes only the project preview.
+# Adding any other file requires an explicit review and force-add.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!ROADMAP.md
+!UPDATES.md
+!CONTRIBUTING.md
+!LICENSE
+!.github/
+!.github/launcher-preview.png
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/config.yml
+!.github/ISSUE_TEMPLATE/feedback.yml
