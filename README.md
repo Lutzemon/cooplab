@@ -1,58 +1,82 @@
 # CoopLab
 
-Titanfall 2's campaign, with a friend.
+![CoopLab — The campaign. With friends.](.github/cooplab-banner.svg)
 
-**[Project website — cooplab.sigmas.club](https://cooplab.sigmas.club/)**
+Same story. More pilots.
 
-An experimental multiplayer campaign project built on Northstar.Coop.
-The aim is to share the story, fights and map transitions without having to
-manage a pile of mods by hand.
+An experimental multiplayer campaign project for Titanfall 2, built on Northstar.Coop.
+CoopLab brings together shared story scenes, dialogue, tougher co-op fights and native
+Windows/Linux launchers that prepare your existing Steam/EA installation.
 
-**In development. Closed testing only. No public download.**
+**[Visit the website](https://cooplab.sigmas.club/) · [Roadmap](ROADMAP.md) · [Development notes](UPDATES.md)**
 
-This repository is a project preview. It contains documentation and a launcher
-screenshot, not the mod, its source code or playable builds. There is no public
-multiplayer service or open beta sign-up. Releasing soon™.
+**In development. Closed testing only. No public download yet.**
 
-## Where it stands
+## Bring backup. Keep the fight.
 
-CoopLab has been taking shape through successive development builds, hands-on
-sessions and fixes driven by player feedback. The website collects an overview
-and real development captures. Its static source is saved in [website/](website/).
+Enemy health scales linearly with the number of players: **two players ×2 health,
+three ×3, four ×4**. Eligible enemy Titans and damageable story enemies are included.
+Enemy counts and damage stay unchanged.
 
-Training, early Crashsite combat and shared dialogue have had extensive player
-playtests. Work so far includes shared scene/HUD state, dialogue UI, enemy
-health scaling and native Windows/Linux launchers.
+Scaling is optional. Training targets, allies and protected scene actors keep their
+original health. Existing enemies are not healed or rescaled when someone joins or
+leaves. Larger party sizes still need verification; current closed tests focus on
+two players.
 
-That is not a full campaign pass. Later missions, reconnects, mixed-OS play and
-real two-player Internet sessions still need testing. Some cinematics and story
-triggers remain unfinished.
+## Share the campaign
+
+- **Stay in the story.** Shared scene state, visibility and HUD work while one
+  story player drives campaign progression.
+- **Share the conversation.** Dialogue UI is shown to the party; the story player
+  selects the response.
+- **Prepare your existing game.** Native Windows and Linux launchers install the
+  matching Northstar and co-op files without making another full game copy.
+
+CoopLab has been taking shape through successive builds, hands-on playtests and
+fixes driven by player feedback. Scene, dialogue and combat fixes have been tried
+with real players. A complete campaign playthrough, later missions, reconnects and
+mixed Windows/Linux sessions still need more testing.
+
+## Development captures
 
 <details>
-<summary>Launcher preview</summary>
+<summary>Native launcher preview</summary>
 
-Development UI from the closed test build. This image is not a download.
+Development UI from the closed test build. This is a screenshot, not a download.
 
-<img src=".github/launcher-preview.png" alt="CoopLab's English setup window with Steam game detection and co-op settings" width="640">
+<img src="website/assets/launcher.png" alt="CoopLab native setup launcher" width="640">
 
 </details>
 
-[Roadmap](ROADMAP.md) · [Development notes](UPDATES.md) · [Feedback](https://github.com/Lutzemon/cooplab/issues/new/choose)
+<details>
+<summary>Earlier settings interface</summary>
+
+A real capture from an earlier interface iteration, showing co-op settings and
+enemy health scaling.
+
+<img src="website/assets/settings.png" alt="Earlier CoopLab settings interface with health scaling and shared story controls" width="640">
+
+</details>
 
 ## Follow the work
 
-Watch this repository for updates. Questions and ideas are welcome through
-Issues; see [CONTRIBUTING.md](CONTRIBUTING.md).
+Watch this repository for updates. Questions, ideas and documentation corrections
+are welcome through [Issues](https://github.com/Lutzemon/cooplab/issues/new/choose).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for feedback guidance.
+
+This repository contains the public website, project information and development
+captures. The playable mod, its implementation and closed-test downloads remain
+private. A public test is planned, but there is no sign-up or confirmed release date.
+Public hosting arrangements will be announced alongside a future test.
 
 Development is AI-assisted, with substantial human direction, debugging and
-hands-on playtesting. In the future, it will be possible to support the work with an optional
-donation, and help pay for the relay services. Donations do not grant
-test access or a promised release.
+hands-on playtesting. Optional donations may be introduced to support development
+and future relay costs. They would not grant test access or a promised release.
 
 ## Credits
 
 Built on [Northstar.Coop](https://github.com/ASpoonPlaysGames/NorthstarMods/tree/cea711a3ce2ebed50d4bcaeb608155c2b6d98beb)
 and [Northstar](https://github.com/R2Northstar).
 
-Independent fan project, not affiliated with Respawn or EA. Titanfall 2 belongs
-to its respective owners. No game assets, accounts or server access are distributed here.
+Independent fan project; not affiliated with Respawn or EA. Titanfall 2 belongs to
+its respective owners. No game assets, accounts or server access are distributed here.

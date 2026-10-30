@@ -4,7 +4,7 @@ This repository is for project information and public feedback. The playable
 build and implementation are not published yet, so code contributions and
 public playtesting are not open at this stage.
 
-Use Issues for questions, ideas and corrections to the documentation. There
+Use Issues for questions, ideas, co-op balance feedback and documentation corrections. Suggestions about enemy health scaling are welcome. There
 is currently no public test sign-up; please do not post requests for private
 invitations or server access.
 

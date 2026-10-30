@@ -2,6 +2,17 @@
 
 ## 2026-10-30
 
+The public website and project pages now share the same direction: **The campaign.
+With friends.** The site includes real development captures and a dedicated look
+at enemy health scaling.
+
+Health scaling is linear by player count, with two players giving eligible enemies
+twice their normal health. Enemy Titans and damageable story enemies are included;
+training targets, allies and protected scene actors retain their original health.
+Scaling is optional, and joins/leaves do not heal or rescale existing enemies.
+Larger party sizes remain a verification target.
+
+
 The project now has native English launchers for Windows and Linux. The closed
 build detects the installed Steam/EA game and installs the matching co-op files
 there, without making another full game copy.
