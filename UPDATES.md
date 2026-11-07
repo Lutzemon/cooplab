@@ -1,4 +1,11 @@
-# Development notes
+# Patch notes
+
+## 2026-11-07 · Closed beta 36
+
+- Fixed the Loading Dock console blocking the lift call after both pilots reached the control room.
+- Earned Titan kits such as Scorch now carry over when the host restarts the game.
+
+Offline checks passed. Two-player gameplay verification is pending.
 
 ## 2026-11-04 · Closed beta 32
 

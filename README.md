@@ -8,7 +8,7 @@ An experimental multiplayer campaign project for Titanfall 2, built on Northstar
 CoopLab brings together shared story scenes, dialogue, tougher co-op fights and native
 Windows/Linux launchers that prepare your existing Steam/EA installation.
 
-**[Visit the website](https://cooplab.sigmas.club/) · [Roadmap](ROADMAP.md) · [Development notes](UPDATES.md)**
+**[Visit the website](https://cooplab.sigmas.club/) · [Roadmap](ROADMAP.md) · [Patch notes](UPDATES.md)**
 
 **In development. Closed testing only. No public download yet.**
 
@@ -32,23 +32,20 @@ two players.
 - **Prepare your existing game.** Native Windows and Linux launchers install the
   matching Northstar and co-op files without making another full game copy.
 
-## Current progress · November 4, 2026
+## Current progress · November 7, 2026
 
 Two-player closed playtests have progressed through training, BT-7274 and Blood and
 Rust into **Into the Abyss: approach**, reaching the Loading Dock. Those sessions
 have driven fixes for story gates, shared dialogue, cutscenes, respawning and map
 travel. A complete campaign playthrough is still pending.
 
-The current closed build is **beta 32**. Host and Join now share one launcher on
+The current closed build is **beta 36**. Host and Join now share one launcher on
 each OS, with automatic mod preparation, a party-loading barrier, bug markers and
 support for sharing an unoccupied allied Titan and repairing it with a battery.
 Enemy health scaling remains a core feature.
 
-The latest changes address losing both player Titans, missing HUD after a Titan
-restart, earned loadouts such as Scorch, and the Loading Dock console and lift.
-These changes have passed offline checks and await the next paired playtest.
-See the [roadmap](ROADMAP.md) for the remaining checks and
-[development notes](UPDATES.md) for details.
+See the [patch notes](UPDATES.md) for changes in each new build and the
+[roadmap](ROADMAP.md) for upcoming playtest checks.
 
 ## Development captures
 
