@@ -1,5 +1,12 @@
 # Patch notes
 
+## 2026-11-07 · Closed beta 37
+
+- The Loading Dock console checks that both pilots are still in the room when used.
+- The extra Titan is removed when the scripted BT pickup starts.
+
+Offline checks passed. Two-player gameplay verification is pending.
+
 ## 2026-11-07 · Closed beta 36
 
 - Fixed the Loading Dock console blocking the lift call after both pilots reached the control room.
