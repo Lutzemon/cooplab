@@ -1,5 +1,12 @@
 # Patch notes
 
+## 2026-11-14 · Closed beta 40
+
+- Synchronized the dome transition and removed player-specific blockers before the first Reaper.
+- Tracked replacement factory props for cleanup and added Boomtown server frame logging.
+
+Offline checks passed. In-game verification is pending.
+
 ## 2026-11-14 · Closed beta 39
 
 - Linux clients now prefer Proton's DXVK libraries to reduce rendering stutter in busy scenes.
