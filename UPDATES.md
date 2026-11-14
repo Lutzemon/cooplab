@@ -1,5 +1,11 @@
 # Patch notes
 
+## 2026-11-14 · Closed beta 42
+
+- Added an optional in-game server TPS monitor for both players.
+
+Offline checks passed. In-game verification is pending.
+
 ## 2026-11-14 · Closed beta 41
 
 - Limited Boomtown collision rebuilds per frame and kept collisions active near either pilot.
