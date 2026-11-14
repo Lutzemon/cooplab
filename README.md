@@ -39,7 +39,7 @@ Rust into **Into the Abyss: approach**, reaching the Loading Dock. Those session
 have driven fixes for story gates, shared dialogue, cutscenes, respawning and map
 travel. A complete campaign playthrough is still pending.
 
-The current closed build is **beta 40**. Host and Join now share one launcher on
+The current closed build is **beta 41**. Host and Join now share one launcher on
 each OS, with automatic mod preparation, a party-loading barrier, bug markers and
 support for sharing an unoccupied allied Titan and repairing it with a battery.
 Enemy health scaling remains a core feature.

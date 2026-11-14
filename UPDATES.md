@@ -1,5 +1,12 @@
 # Patch notes
 
+## 2026-11-14 · Closed beta 41
+
+- Limited Boomtown collision rebuilds per frame and kept collisions active near either pilot.
+- Added host profiling reports with server frame timings, collision updates, F8 markers and gaps in samples.
+
+Offline checks passed. In-game TPS verification is pending.
+
 ## 2026-11-14 · Closed beta 40
 
 - Synchronized the dome transition and removed player-specific blockers before the first Reaper.
