@@ -1,5 +1,11 @@
 # Patch notes
 
+## 2026-11-14 · Closed beta 39
+
+- Linux clients now prefer Proton's DXVK libraries to reduce rendering stutter in busy scenes.
+
+Offline checks passed. In-game performance verification is pending.
+
 ## 2026-11-14 · Closed beta 38
 
 - Loading Dock brings both pilots into the terminal room when one reaches it and two safe spots are available.
