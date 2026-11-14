@@ -1,5 +1,12 @@
 # Patch notes
 
+## 2026-11-14 · Closed beta 38
+
+- Loading Dock brings both pilots into the terminal room when one reaches it and two safe spots are available.
+- Added a fallback for BT's stalled capture sequence.
+
+Offline checks passed. Two-player gameplay verification is pending.
+
 ## 2026-11-07 · Closed beta 37
 
 - The Loading Dock console checks that both pilots are still in the room when used.
